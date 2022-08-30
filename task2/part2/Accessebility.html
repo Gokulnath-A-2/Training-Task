@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta name="description" content="Details">
+    <meta name="viewport"content= "width=device-width,initial-scale=1.0">
+    <title>Accessibility</title>
+   
+</head>
+<body>
+    <form action="">
+    <fieldset style="width:400px">
+    <legend>Personal Details</legend>
+    <div>
+        <img src="images/image.jpg" style="width:700px;height:1244px;" tabindex="11" aria-label="Profile Picture"/>
+    </div>
+        <div>
+            <label for="name"><pre>Name :</pre></label>
+            <input type="name" id="name" tabindex="0" autofocus/>
+        </div>
+        <div>
+            <label for="password"><pre>Password :</pre></label>
+            <input type="Password" id="password" tabindex="1" autofocus/>
+        </div>
+        <br>
+        <div>
+            <label for="vehicles">Vechicle type:</label>
+            <label for="bike">Bike</label>
+            <input type="Checkbox" name="bike" id="vehicle1" tabindex="2" aria-label="checkbox"/>
+            <label for="car">Car</label>
+            <input type="Checkbox" name="car" id="vehicle2" tabindex="3" aria-label="checkbox"/>
+    
+            <label for="suv">SUV</label>
+            <input type="Checkbox" name="Suv" id="vehicle3" tabindex="4" aria-label="checkbox"/>
+            <label for="cycle">Cycle</label>
+            <input type="Checkbox" name="cycle" id="vehicle4" tabindex="5" aria-label="checkbox"/>
+        </div>
+        <br>
+        <div>
+             <label>Gender:</label>
+            <label>Male</label><input type="radio" name="gender" tabindex="6" aria-label="Radio-button"/>
+            <label>Female</label><input type="radio" name="gender" tabindex=" 7" aria-label="Radio-button"/>
+        </div><br>
+        <label>Address:</label>
+        </div>
+        <div><textarea placeholder="Type Your address" tabindex="8">
+        </textarea>
+        </div>
+        <div>
+         <a href="images/image.jpg" target="_blank" ><button type="button" tabindex="9">Register</button> </a>
+                  <input type="reset" value="Clear" tabindex="10" aria-label="reset button">
+         </div>
+        </fieldset>
+    </form>
+</html>     

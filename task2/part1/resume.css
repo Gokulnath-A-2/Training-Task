@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    box-sizing:border-box;
+}
+body{
+    color: rgb(12, 12, 12);
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:20px ;
+    text-decoration: underline;
+    text-decoration-style:solid;
+}
+.resume{
+    display:grid;
+    grid-template-columns:auto auto;
+    justify-content:center;
+}
+img{
+    margin-left: 40px;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+
+}
+.left{
+    border:2px solid black;
+    width:280px;
+    padding-left:10px;
+    padding-right: 10px;
+    background-color: rgb(209, 41, 41);
+}
+.right{
+    border:2px solid black;
+    width:350px;
+    background-color: rgb(227, 238, 238);
+}
+p{
+    text-indent:10px;
+}
+ul,ol{
+    padding-left:40px;
+    list-style:disc;
+}
+#phone::after{
+    content:"\a";
+    white-space: pre;
+}
+#email::after{
+    content:"\a";
+    white-space: pre;
+}
+#linkedin::after{
+    content:"\a";
+    white-space: pre;
+}

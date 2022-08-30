@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Montserrat';
+}
+body{
+    margin: 0 auto;
+}
+.heading{
+    display:block;
+    position: absolute;
+    width:20%;
+    margin-left:8.5%;;
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+}
+.detail{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    justify-items:center;
+    align-items:center ;
+    margin-top:70px;
+    margin-left:-40px;
+}
+.detail-row{
+    width:26%;
+    padding:20px 15px 20px 40px;
+    justify-content: center;
+    background-color: rgb(203, 226, 248);
+    margin:1px;
+}
+.inside-heading
+{
+    position:absolute;
+    margin-top: 200px;
+    margin-left :410px;
+    color:rgb(127, 216, 238);
+    font-size: 250%;
+    font-stretch:expanded ;
+}
+.play{
+    position: absolute;
+    z-index:1;
+    margin-top:250px;
+    margin-left:580px;
+}
+.Home{
+    position: absolute;
+    z-index:-1;
+    width:90%;
+    margin-top:110px;
+}
+.Home.home{
+    width:100%;
+}
+.detail-row:hover{
+    color: aliceblue;
+    background-color:blue;
+}
+.access{
+    position: absolute;
+    display:flex;
+    margin-top: 475px;
+    margin-left:50px;
+    width:82%;
+    background-color: black;
+}
+.access-row{
+    background-color: rgb(252, 250, 250);
+    padding: 20px 20px 20px 20px;
+    width:33.3%;
+    box-shadow:2px 2px 4px 2px gainsboro;
+}
+.access img{
+    width: 15%;
+}
+p{
+    padding-right:60px ;
+}
+
+
+
+
